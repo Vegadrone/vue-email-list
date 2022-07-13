@@ -23,8 +23,8 @@
             <div class="col-12">
                 <h1 class="text-light fw-bold text-center"> Email List</h1>
                 <div class="col-6 offset-3 text-light">
-                    <ul class="email-list list-group mt-3" v-if="email.length === 10">
-                        <li class="email-list-element list-group-item" v-for="oneEmail in email">{{oneEmail}}</li>
+                    <ul class="email-list list-group mt-3" v-if="emailList.length === 10">
+                        <li class="email-list-element list-group-item" v-for="email in emailList">{{email}}</li>
                     </ul>
                 </div>
             </div>
